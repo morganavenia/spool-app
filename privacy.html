@@ -4,34 +4,34 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>spool — Privacy Policy</title>
-<style>
-  :root { --bg:#07080c; --text:#f4f6fb; --dim:#9aa3b4; --accent:#a78bfa; }
-  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
-  main { max-width:680px; margin:0 auto; padding:48px 20px 80px; }
-  h1 { font-size:32px; margin:0 0 4px; } h2 { font-size:19px; margin:32px 0 6px; }
-  p, li { color:var(--dim); } a { color:var(--accent); } .updated { font-size:14px; }
-</style>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
+<nav class="site-nav" aria-label="Site">
+  <a class="brand" href="./"><img src="icon.png" alt="">spool</a>
+  <a class="link" href="support">Help</a>
+  <a class="link" href="privacy" aria-current="page">Privacy</a>
+</nav>
 <main>
 <h1>Privacy Policy</h1>
 <p class="updated">spool for iPhone, iPad and Apple TV · Last updated October 10, 2026</p>
 
 <p>spool is an audiobook player. It is built to know as little about you as possible: there is no spool account, no advertising and no tracking.</p>
 
-<h2>No data collection</h2>
+<h2 id="no-data-collection">No data collection</h2>
 <p>spool does not collect any data. There is no analytics, no advertising and no tracking, and the developer runs no servers that see your activity.</p>
 
-<h2>Servers you connect</h2>
+<h2 id="servers-you-connect">Servers you connect</h2>
 <p>When you add an Audiobookshelf or Jellyfin server, spool sends your sign-in details, and later your listening progress and bookmarks, <strong>only to that server</strong>. Those servers are run by you or by someone you chose; their own privacy practices apply to what they store.</p>
 
-<h2>LibriVox</h2>
+<h2 id="librivox">LibriVox</h2>
 <p>Browsing, searching and playing LibriVox books sends requests to the Internet Archive (archive.org), which hosts LibriVox recordings. Those requests are subject to the <a href="https://archive.org/about/terms.php">Internet Archive's terms and privacy policy</a>. Progress for LibriVox books is kept only on your device.</p>
 
-<h2>Files you import</h2>
+<h2 id="files-you-import">Files you import</h2>
 <p>Audio files you import stay on your device, inside spool's private storage. They are never uploaded anywhere.</p>
 
-<h2>Stored on your device</h2>
+<h2 id="stored-on-your-device">Stored on your device</h2>
 <ul>
   <li>Server addresses and sign-in tokens, in the iOS Keychain</li>
   <li>Your library listing, cover images and downloads, so the app works offline</li>
@@ -40,14 +40,15 @@
 </ul>
 <p>Removing a library in Settings, or deleting the app, removes this data.</p>
 
-<h2>Purchases</h2>
+<h2 id="purchases">Purchases</h2>
 <p>spool Pro is purchased through Apple. spool receives only confirmation that the purchase is valid; payment details are handled entirely by Apple.</p>
 
-<h2>Children</h2>
+<h2 id="children">Children</h2>
 <p>spool does not knowingly collect information from anyone, including children.</p>
 
-<h2>Contact</h2>
+<h2 id="contact">Contact</h2>
 <p>Questions about this policy: <a href="mailto:morganavenia+apps@gmail.com">morganavenia+apps@gmail.com</a></p>
 </main>
+<footer class="site-footer"><a href="./">spool</a> · <a href="support">Help &amp; Support</a> · <a href="privacy">Privacy Policy</a> · <a href="mailto:morganavenia+apps@gmail.com">Contact</a></footer>
 </body>
 </html>
